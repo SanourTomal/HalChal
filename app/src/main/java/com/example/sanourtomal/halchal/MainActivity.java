@@ -69,41 +69,41 @@ public class MainActivity extends AppCompatActivity {
 
         switch (type) {
             case DetectedActivity.IN_VEHICLE: {
-                //label = getString(R.string.activity_in_vehicle);
+                label = getString(R.string.activity_in_vehicle);
                 icon = R.drawable.ic_driving;
                 break;
             }
             case DetectedActivity.ON_BICYCLE: {
-                //label = getString(R.string.activity_on_bicycle);
+                label = getString(R.string.activity_on_bicycle);
                 icon = R.drawable.ic_on_bicycle;
                 break;
             }
             case DetectedActivity.ON_FOOT: {
-                //label = getString(R.string.activity_on_foot);
+                label = getString(R.string.activity_on_foot);
                 icon = R.drawable.ic_walking;
                 break;
             }
             case DetectedActivity.RUNNING: {
-                //label = getString(R.string.activity_running);
+                label = getString(R.string.activity_running);
                 icon = R.drawable.ic_running;
                 break;
             }
             case DetectedActivity.STILL: {
-                //label = getString(R.string.activity_still);
+                label = getString(R.string.activity_still);
                 break;
             }
             case DetectedActivity.TILTING: {
-                //label = getString(R.string.activity_tilting);
+                label = getString(R.string.activity_tilting);
                 icon = R.drawable.ic_tilting;
                 break;
             }
             case DetectedActivity.WALKING: {
-                //label = getString(R.string.activity_walking);
+                label = getString(R.string.activity_walking);
                 icon = R.drawable.ic_walking;
                 break;
             }
             case DetectedActivity.UNKNOWN: {
-                //label = getString(R.string.activity_unknown);
+                label = getString(R.string.activity_unknown);
                 break;
             }
         }
